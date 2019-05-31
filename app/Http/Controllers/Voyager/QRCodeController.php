@@ -204,4 +204,7 @@ DATA;
         $len = strpos($string, $end, $ini) - $ini;
         return substr($string, $ini, $len);
     }    
+    
+
+    
 }
