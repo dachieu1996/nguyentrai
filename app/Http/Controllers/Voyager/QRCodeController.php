@@ -173,7 +173,7 @@ ADR:$address
 TEL:$phoneNumber
 EMAIL:$email
 URL:$url
-ID:$id
+ID:$phoneNumber
 END:VCARD     
 DATA;
 
@@ -190,7 +190,7 @@ DATA;
     }
 
     function responseInfoById(Request $request){
-        if($user = Qrcode::findOrFail($request->id)){
+        if($user = Qrcode::where('phone_number', '=', $request->id)->first()){
             return response($user,200);
         }
         else return response("",404);
