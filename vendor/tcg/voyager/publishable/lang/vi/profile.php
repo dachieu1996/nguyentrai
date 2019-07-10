@@ -2,9 +2,9 @@
 
 return [
     'avatar'           => 'Avatar',
-    'edit'             => 'Edit My Profile',
-    'edit_user'        => 'Edit User',
-    'password'         => 'Password',
+    'edit'             => 'Sửa thông tin cá nhân',
+    'edit_user'        => 'Sửa User',
+    'password'         => 'Mật khẩu',
     'password_hint'    => 'Leave empty to keep the same',
     'role'             => 'Role',
     'roles'            => 'Roles',
