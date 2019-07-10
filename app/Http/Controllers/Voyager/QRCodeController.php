@@ -193,7 +193,7 @@ DATA;
         if($user = Qrcode::where('phone_number', '=', $request->id)->first()){
             return response($user,200);
         }
-        else return response("",404);
+        else return response("Không tìm thấy kết quả",404);
     }
 
     function get_string_between($string, $start, $end){
