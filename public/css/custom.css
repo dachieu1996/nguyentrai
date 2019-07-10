@@ -5,3 +5,12 @@ body{
 .form-control{
     color: black;
 }
+.img-responsive{
+    max-width: 250px;
+}
+
+.panel-qrcode{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}

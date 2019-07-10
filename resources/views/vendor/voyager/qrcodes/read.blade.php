@@ -134,7 +134,8 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <div class="panel panel-bordered" style="padding-bottom:5px;">
+                <div class="panel panel-bordered panel-qrcode">
+                    <h3 style="margin:30px">Mã QR Code</h3>
                     <img src="{{ Voyager::image($qrcodeImage) }}">
                 </div>
             </div>
